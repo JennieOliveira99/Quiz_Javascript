@@ -49,14 +49,45 @@ body{
     gap: 24px;/*espacamento entre elementos*/
 }
 /*estilizando os textos de perguntas*/
-.questions-container{
+.question{
     font-size: 24px;
     color: #e1e1e6;
     font-weight: bold;
     text-align: center;
 }
+
 /*estilizando as respostas dos botoes*/
-.answers-container{
+.answers-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
 
+  .next-question{
+    margin-top: 32px;
+  }
 
-}
+  .button{
+    background-color: blueviolet;
+    color: #e1e1e6;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 6px;
+    height: 48px;
+    padding: 0 32px;
+    /*adcionando transicao do efeito transition filter*/
+    transition: filter 0.5s;
+  }
+
+  .button:hover{
+    filter: brightness(0.8);
+  }
+
+  /*configurando a classe hide, ou seja, os itens que irao ser "escondidos" no html"
+     <button class="next-question button hide">Próxima pergunta</button>
+     <div class="questions-container hide">*/
+  .hide{
+    display: none;
+ }
