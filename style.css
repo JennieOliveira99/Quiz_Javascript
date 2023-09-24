@@ -1,0 +1,62 @@
+/*formatando a zero a page
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+body{
+    background-color: brown;
+    color: fff;
+    height: 100vh; /*para ocupar toda a altura da tela*/
+
+    /*centralizando os itens*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*estilizando o container(fazendo o quadrado central */
+.container{
+    /*colocar o fadding*/
+    background-color: black;
+    width: 90%;
+    max-width: 800px;
+    border: 2px solid #e1e1e6;
+    border-radius: 6px;
+    /*colocando distancia interior, entre elementos e a borda*/
+    padding: 16px;
+
+    /*centralizando os elementos de dentro*/
+    display: flex;
+    flex-direction: column;/*deixa quatro botoes em cima e dois embaixo*/
+    justify-content: center;
+    align-items: center;
+}
+
+.questions-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;/*espacamento entre elementos*/
+}
+/*estilizando os textos de perguntas*/
+.questions-container{
+    font-size: 24px;
+    color: #e1e1e6;
+    font-weight: bold;
+    text-align: center;
+}
+/*estilizando as respostas dos botoes*/
+.answers-container{
+
+
+}
