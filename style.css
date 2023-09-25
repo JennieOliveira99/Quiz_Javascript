@@ -81,13 +81,34 @@ body{
     transition: filter 0.5s;
   }
 
-  .button:hover{
+  .button:not(:disable):hover{
     filter: brightness(0.8);
   }
 
   /*configurando a classe hide, ou seja, os itens que irao ser "escondidos" no html"
      <button class="next-question button hide">Próxima pergunta</button>
      <div class="questions-container hide">*/
+
+.answer:disabled{
+    cursor: not-allowed;
+}
   .hide{
     display: none;
  }
+
+ .correct{
+    background-color: #049b48;
+ }
+
+ .incorrect{
+    background-color: #a10101;
+ }
+
+.final-message{
+    color: #e1e1e6;
+
+}
+.final-message span{
+    display: block;
+    margin-top: 8px;
+}
