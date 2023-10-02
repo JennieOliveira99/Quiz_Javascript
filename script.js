@@ -169,64 +169,64 @@ function selectAnswer(event) {
 
 const questions = [
     {
-      question: "Dentro de qual elemento HTML colocamos o JavaScript?",
+      question: "Quem foi a pessoa responsável por criar a linguagem  FLOW-MATIC que serviu de base para a criação da linguagem COBOL?",
       answers: [
-        { text: "<javascript>", correct: false },
-        { text: "<js>", correct: false },
-        { text: "<script>", correct: true },
-        { text: "<scripting>", correct: false }
+        { text: "Bob Bemer", correct: false },
+        { text: "Mary Kenneth Keller", correct: false },
+        { text: "Grace Hopper", correct: true },
+        { text: "Tim Berners-Lee", correct: false }
       ]
     },
     {
-      question: "Onde é o lugar correto para inserir JavaScript?",
+      question: "Quem foi responsável por desenvolver o primeiro algoritmo interpretado por uma máquina, sendo assim, o primeiro programador da história?",
       answers: [
-        { text: "Tanto no <head> quanto no <body> está correto", correct: true },
-        { text: "No <body>", correct: false },
-        { text: "No <head>", correct: false },
-        { text: "Em outro lugar", correct: false }
+        { text: "Ada Lovelace", correct: true },
+        { text: "James Gosling", correct: false },
+        { text: "Richard Stallman", correct: false },
+        { text: "Alan Turing", correct: false }
       ]
     },
     {
-      question: 'Qual é a sintaxe correta para se referir a um script externo chamado "xxx.js"',
+      question: ' Quem foi responsável por calcular a trajetória de voo para a missão de primeiro pouso na lua, feito pelo Apolo 11?',
       answers: [
-        { text: '<script src="xxx.js">', correct: true },
-        { text: '<script href="xxx.js">', correct: false },
-        { text: '<script name="xxx.js">', correct: false },
+        { text: 'Katherine Johnson', correct: true },
+        { text: 'Hedy Lamarr', correct: false },
+        { text: 'Roberta Williams', correct: false },
         { text: "Nenhuma das alternativas", correct: false }
       ]
     },
     {
-      question: 'O arquivo JavaScript externo deve conter a tag <script>',
+      question: 'O primeiro  primeiro computador digital programável do mundo(ENIAC) foi desenvolvida por uma equipe majoritariamente feminina.',
       answers: [
-        { text: "Verdadeiro", correct: false },
-        { text: "Falso", correct: true }
+        { text: "Verdadeiro", correct: true },
+        { text: "Falso", correct: false}
       ]
     },
     {
-      question: 'Como escrever "Hello World" numa caixa de alerta?',
+      question: 'Quem foi responsável por escrever manualmente todo o código da nave Apollo 11, que levou os primeiros homens à lua?',
       answers: [
-        { text: 'msg("Hello World");', correct: false },
-        { text: 'alert("Hello World");', correct: true },
-        { text: 'msgBox("Hello World");', correct: false },
-        { text: 'alertBox("Hello World");', correct: false }
+        { text: 'Katherine Johnson', correct: false },
+        { text: 'Margaret Hamilton ', correct: true },
+        { text: 'Karen Jones', correct: false },
+        { text: 'Dorothy Vaughan ', correct: false }
       ]
     },
     {
-      question: 'Como podemos criar uma função no JavaScript?',
+      question: 'Quem foi responsável por descobrir a base para a tecnologia do Wi-F?',
       answers: [
-        { text: 'function:myFunction()', correct: false },
-        { text: 'function myFunction()', correct: true },
-        { text: 'function = myFunction()', correct: false },
-        { text: 'Nenhum desses códigos criaria uma função', correct: false }
+        { text: 'Cheng Wei', correct: false },
+        { text: 'Hedy Lamarr', correct: true },
+        { text: 'Bill Gates', correct: false },
+        { text: 'Anne Aaron', correct: false }
       ]
     },
     {
-      question: 'Como podemos chamar uma função chamada "minhaFuncao"?',
+      question: 'Quem desenvolveu os sistemas de processamento de imagem em formatos de mídia digital usados nos primeiros anos do programa de satélites da NASA?',
       answers: [
-        { text: 'call minhaFuncao()', correct: false },
-        { text: 'call function minhaFuncao()', correct: false },
-        { text: 'Nenhum desses códigos chamaria essa função', correct: false },
-        { text: 'minhaFuncao()', correct: true },
+        { text: 'Gladys Mae West ', correct: false },
+        { text: 'Edith Clarke ', correct: false },
+        { text: 'Kathy Kleiman ', correct: false },
+        { text: 'Valerie Thomas', correct: true },
       ]
     },
   ]

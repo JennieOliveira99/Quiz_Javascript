@@ -12,7 +12,8 @@ button {
 }
 
 body{
-    background-color: brown;
+    background-image: url(bg2.png);
+    background-size: 100%;
     color: fff;
     height: 100vh; /*para ocupar toda a altura da tela*/
 
@@ -25,10 +26,10 @@ body{
 /*estilizando o container(fazendo o quadrado central */
 .container{
     /*colocar o fadding*/
-    background-color: black;
+    background:rgba(255,255,255,0.5);
     width: 90%;
     max-width: 800px;
-    border: 2px solid #e1e1e6;
+    border: 2px solid #54547c;
     border-radius: 6px;
     /*colocando distancia interior, entre elementos e a borda*/
     padding: 16px;
@@ -51,7 +52,7 @@ body{
 /*estilizando os textos de perguntas*/
 .question{
     font-size: 24px;
-    color: #e1e1e6;
+    color: #161630;
     font-weight: bold;
     text-align: center;
 }
@@ -69,7 +70,7 @@ body{
   }
 
   .button{
-    background-color: blueviolet;
+    background-color: rgb(151, 48, 202);
     color: #e1e1e6;
     font-size: 16px;
     font-weight: bold;
@@ -97,15 +98,15 @@ body{
  }
 
  .correct{
-    background-color: #049b48;
+    background-color: #59a193;
  }
 
  .incorrect{
-    background-color: #a10101;
+    background-color: #f85b7a;
  }
 
 .final-message{
-    color: #e1e1e6;
+    color: #232356;
 
 }
 .final-message span{
